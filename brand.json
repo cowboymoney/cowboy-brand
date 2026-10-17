@@ -1,0 +1,130 @@
+{
+  "$comment": "Cowboy's brand kit index. Paths are relative to this repo. Colors must match cowboy-agent's app/palette.css; its brand sync fails the build when they drift.",
+  "version": 1,
+  "colors": {
+    "brand": {
+      "ground": "#252322",
+      "cream": "#efe9df",
+      "paper": "#f8f5f1",
+      "cobalt": "#2b3f91",
+      "cobaltBright": "#6f86ff"
+    },
+    "highNoon": {
+      "mint": "#46d98a",
+      "marigold": "#ffb020",
+      "coral": "#ff6a4d",
+      "coralInk": "#c22f14",
+      "sky": "#4f8cff",
+      "aqua": "#38c6c0"
+    },
+    "logoInk": {
+      "onLight": "#0e0e0e",
+      "onDark": "#ffffff"
+    }
+  },
+  "logo": {
+    "wordmark": {
+      "onLight": "logo/cowboy-wordmark-black.svg",
+      "onDark": "logo/cowboy-wordmark-white.svg"
+    },
+    "spur": {
+      "onLight": "logo/cowboy-spur-black.svg",
+      "onDark": "logo/cowboy-spur-white.svg"
+    },
+    "png": {
+      "wordmarkOnLight": "logo/png/cowboy-wordmark-black.png",
+      "wordmarkOnDark": "logo/png/cowboy-wordmark-white.png",
+      "spurOnLight": "logo/png/cowboy-spur-black.png",
+      "spurOnDark": "logo/png/cowboy-spur-white.png"
+    }
+  },
+  "icons": {
+    "marketOpen": {
+      "onLight": "icons/sun-black.svg",
+      "onDark": "icons/sun-white.svg"
+    },
+    "marketClose": {
+      "onLight": "icons/moon-black.svg",
+      "onDark": "icons/moon-white.svg"
+    }
+  },
+  "fonts": {
+    "wordmark": {
+      "family": "Archivo",
+      "weight": 900,
+      "ttf": "fonts/Archivo-900.ttf",
+      "woff2": "fonts/Archivo-900.woff2"
+    }
+  },
+  "motion": {
+    "thinking": "motion/spur-thinking.mp4",
+    "pageLoader": "motion/spur-page-loader.mp4",
+    "bounce": "motion/spur-bounce.mp4"
+  },
+  "characters": [
+    {
+      "id": "trader",
+      "name": "Trader",
+      "role": "Texts you",
+      "color": "cream",
+      "hex": "#efe9df",
+      "image": "characters/trader.jpg"
+    },
+    {
+      "id": "scout",
+      "name": "Scout",
+      "role": "Research",
+      "color": "aqua",
+      "hex": "#38c6c0",
+      "image": "characters/scout.jpg"
+    },
+    {
+      "id": "chartist",
+      "name": "Chartist",
+      "role": "Indicators",
+      "color": "sky",
+      "hex": "#4f8cff",
+      "image": "characters/chartist.jpg"
+    },
+    {
+      "id": "bull",
+      "name": "Bull",
+      "role": "The case for",
+      "color": "mint",
+      "hex": "#46d98a",
+      "image": "characters/bull.jpg"
+    },
+    {
+      "id": "bear",
+      "name": "Bear",
+      "role": "The case against",
+      "color": "coral",
+      "hex": "#ff6a4d",
+      "image": "characters/bear.jpg"
+    },
+    {
+      "id": "risk",
+      "name": "Risk",
+      "role": "Your limits",
+      "color": "marigold",
+      "hex": "#ffb020",
+      "image": "characters/risk.jpg"
+    },
+    {
+      "id": "crypto",
+      "name": "Crypto watcher",
+      "role": "Coins, 24/7",
+      "color": "cobaltBright",
+      "hex": "#6f86ff",
+      "image": "characters/crypto.jpg"
+    },
+    {
+      "id": "macro",
+      "name": "Macro reader",
+      "role": "Fed, CPI, jobs",
+      "color": "paper",
+      "hex": "#f8f5f1",
+      "image": "characters/macro.jpg"
+    }
+  ]
+}
